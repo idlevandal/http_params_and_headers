@@ -20,7 +20,7 @@ export class LoggerInterceptor implements HttpInterceptor {
       }
     })
 
-    console.log(request.headers);
+    console.log(request);
     
     return next.handle(tokenizedReq)
       .pipe(
