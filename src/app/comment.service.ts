@@ -27,7 +27,7 @@ export class CommentService {
   //     .set('postId', '3')
   //     .set('id', '2')
 
-  comment$ = this.http.get('https://jsonplaceholder.typicode.com/comzzments', {
+  comment$ = this.http.get('https://jsonplaceholder.typicode.com/comments', {
     params: this.httpParams,
     headers: this.httpHeaders
   });

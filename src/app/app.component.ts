@@ -14,6 +14,8 @@ export class AppComponent implements OnInit {
   results$: Observable<any>;
   
   public ngOnInit(): void {
+    console.log('On Init..');
+    
     this.results$ = this.commentService.comment$;
 
     this.commentService.textComment$.subscribe(console.log);
