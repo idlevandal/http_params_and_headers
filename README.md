@@ -2,7 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 
-## http params, http header & error interceptor
+## http params
+## http header
+## error/logger interceptor
+## APP_INIITIALIZER
 
 ### Links for APP_INITIALIZER
 
