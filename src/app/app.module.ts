@@ -17,7 +17,8 @@ import { StartupService } from './startup.service';
   providers: [
     {
       provide : APP_INITIALIZER,
-      multi : true, deps : [StartupService],
+      multi : true,
+      deps : [StartupService],
       useFactory : (startupService : StartupService) => () => startupService.startmeup()
     },
     { provide: HTTP_INTERCEPTORS, useClass: LoggerInterceptor, multi: true }
