@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## http params, http header & error interceptor
 
-# Links for APP_INITIALIZER
+### Links for APP_INITIALIZER
 
 https://tutorialsforangular.com/2019/12/05/using-the-app_initializer-token-to-bootstrap-your-application/
 
