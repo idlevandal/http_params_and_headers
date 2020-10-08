@@ -145,6 +145,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "params-app"
+    }
+  },
+  "defaultProject": "params-app",
+  "cli": {
+    "analytics": false
+  }
 }
